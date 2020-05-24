@@ -13,7 +13,7 @@
 
 <header th:fragment="logged-in" th:remove="tag">
     <header>
-        <form method="post">
+        <form method="post" th:action="@{users/logout}">
             <input type="submit" value="Logout"/>
         </form>
     </header>

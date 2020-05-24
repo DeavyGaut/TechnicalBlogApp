@@ -1,7 +1,7 @@
 package technicalblog.service;
 
 import org.springframework.stereotype.Service;
-import technicalblog.modal.Post;
+import technicalblog.model.Post;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -51,4 +51,5 @@ public class PostService {
         return posts;
 
     }
+
 }

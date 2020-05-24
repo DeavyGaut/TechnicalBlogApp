@@ -1,4 +1,4 @@
-package technicalblog.modal;
+package technicalblog.model;
 
 public class User {
 
@@ -12,7 +12,6 @@ public class User {
     public void setUsername(String username) {
         this.username = username;
     }
-
 
 
 }
