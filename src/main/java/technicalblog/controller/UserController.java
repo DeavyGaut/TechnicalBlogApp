@@ -38,14 +38,9 @@ public class UserController {
 
     @RequestMapping(value = "users/login", method=RequestMethod.POST)
     public String loginUser(User user) {
-        if(userService.login(user)) {
-            return "redirect:/posts";
-        }
-        else {
-            return "users/login";
-        }
-    }
+        return "redirect:/posts";
 
+    }
 
     @RequestMapping(value = "users/logout", method = RequestMethod.POST)
     public String logout(Model model) {

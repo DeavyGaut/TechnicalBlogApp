@@ -52,4 +52,6 @@ public class PostService {
 
     }
 
+    public void createPost (Post newPost){
+    }
 }
